@@ -1,0 +1,22 @@
+.c_projects {
+  width: 100vw;
+  position: absolute;
+  transform: translateY(85vh);
+}
+.c_projects__container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.c_projects__container > div:nth-child(1) {
+  transform: scale(1);
+  opacity: 1;
+}
+@media screen and (max-width: 1000px) {
+  .c_projects__container {
+    max-width: 90vw;
+  }
+}
+.active {
+  transform: scale(1);
+  opacity: 1;
+}

@@ -1,0 +1,11 @@
+.c_project {
+  width: 100%;
+  margin-bottom: 100px;
+  opacity: 0;
+  transform: scale(.9);
+  transition: all .5s;
+}
+.c_project > img {
+  width: 100%;
+  height: auto;
+}

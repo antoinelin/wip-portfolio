@@ -61,9 +61,9 @@ table {
 */
 body {
   text-size-adjust:100%;
+  overflow-x: hidden;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  background: black;
 }
 /*body::-webkit-scrollbar {
   display: none;
@@ -111,33 +111,51 @@ strong {
 
 /* Regular normal */
 @font-face {
-    font-family:'sofia_pro_bold';
-    src:url(./fonts/sofia_pro_bold.eot);
-    src:url(./fonts/sofia_pro_bold.eot?#iefix) format('embedded-opentype'),
-        url(./fonts/sofia_pro_bold.woff2) format('woff2'),
-        url(./fonts/sofia_pro_bold.woff) format('woff'),
-        url(./fonts/sofia_pro_bold.ttf) format('truetype'),
-        url(./fonts/sofia_pro_bold.svg#myFont) format('svg');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family:'sofia_pro_regular';
-    src:url(./fonts/sofia_pro_regular.eot);
-    src:url(./fonts/sofia_pro_regular.eot?#iefix) format('embedded-opentype'),
-        url(./fonts/sofia_pro_regular.woff2) format('woff2'),
-        url(./fonts/sofia_pro_regular.woff) format('woff'),
-        url(./fonts/sofia_pro_regular.ttf) format('truetype'),
-        url(./fonts/sofia_pro_regular.svg#myFont) format('svg');
+    font-family:'sftext-regular';
+    src:url(./fonts/sftext-regular-webfont.woff2) format('woff2'),
+        url(./fonts/sftext-regular-webfont.woff) format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
+@font-face {
+    font-family:'sftext-semibold';
+    src:url(./fonts/sftext-semibold-webfont.woff2) format('woff2'),
+        url(./fonts/sftext-semibold-webfont.woff) format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
 h1 {
-  font-family: 'sofia_pro_bold';
+  font-family: 'sftext-semibold';
   font-weight: bold;
-  font-size: 3.750em;
-  letter-spacing: 4.8px;
-  color: white;
+  font-size: 33px;
+  letter-spacing: -0.48px;
+  color: #4A4A4A;
+}
+h2 {
+  font-size: 14px;
+  color: #4A4A4A;
+  font-family: 'Droid serif', serif;
+}
+p {
+  font-family: 'sftext-regular';
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: -0.32px;
+  line-height: 1.5em;
+  color: #4A4A4A;
+}
+a {
+  font-family: 'sftext-regular';
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: -0.32px;
+  line-height: 1.5em;
+  color: #50E3C2;
+  text-decoration: none;
+  transition: 200ms ease-out;
+}
+a:hover {
+  color: #5dc2ab;
 }

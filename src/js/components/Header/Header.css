@@ -1,0 +1,30 @@
+.c_header {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+.c_header__container {
+  max-width: 1000px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (max-width: 1000px) {
+  .c_header__container {
+    max-width: 90vw;
+  }
+}
+.c_header__container > p {
+  margin: 10px 0;
+  max-width: 52%;
+}
+@media screen and (max-width: 1000px) {
+  .c_header__container > p {
+    max-width: 100%;
+  }
+}
+.c_header__networks {
+  margin: 20px 0;
+}

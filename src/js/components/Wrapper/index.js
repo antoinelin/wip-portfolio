@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Loading from './../Loading'
-import LandingTop from './../LandingTop'
+import LandingWrapper from './../LandingWrapper'
 
 export default class Wrapper extends Component {
   componentDidMount() {
@@ -15,8 +15,9 @@ export default class Wrapper extends Component {
           !projects && <Loading />
         }
         {
-          projects && <LandingTop
+          projects && <LandingWrapper
             location={location}
+            projects={projects}
           />
         }
       </div>

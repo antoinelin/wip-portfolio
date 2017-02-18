@@ -1,11 +1,7 @@
 import React, { Component } from 'react'
-import Header from './../../components/Header'
-
-import styles from './ProjectsPage.css'
-
 import LandingContainer from '../../containers/LandingContainer'
 
-class ProjectsPage extends Component {
+export default class Landing extends Component {
   // Render method
   // ---------------------------------o
   render() {
@@ -13,10 +9,8 @@ class ProjectsPage extends Component {
     // JSX
     return (
       <div>
-        <Header />
         <LandingContainer location={location} />
       </div>
     )
   }
 }
-export default ProjectsPage
