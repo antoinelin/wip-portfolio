@@ -10,6 +10,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  transform: translateY(-10px);
+  opacity: 0;
 }
 @media screen and (max-width: 1000px) {
   .c_header__container {

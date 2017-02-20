@@ -6,7 +6,7 @@ export default class Loading extends Component {
   render() {
     return (
       <div className={styles.c_loading} id="background">
-        <h2 className={styles.c_loadingTitle} id="title">Antoine Lin</h2>
+        <h2 className={styles.c_loadingTitle} id="title">loading...</h2>
       </div>
     )
   }

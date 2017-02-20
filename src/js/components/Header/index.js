@@ -18,6 +18,7 @@ export default class Header extends Component {
             <li><p>Find me on Twitter : <a href="https://twitter.com/ToineLIN" target="_blank" rel="noopener noreferrer">@ToineLin</a></p></li>
             <li><p>Find me on Github : <a href="https://github.com/toinelin" target="_blank" rel="noopener noreferrer">toinelin</a></p></li>
             <li><p>Find me on Bëhance : <a href="https://www.behance.net/AntoineLIN" target="_blank" rel="noopener noreferrer">AntoineLIN</a></p></li>
+            <li><p>Download my resume : <a href="http://www.antoinelin.com/CV" target="_blank" rel="noopener noreferrer">here</a></p></li>
           </ul>
         </div>
       </header>

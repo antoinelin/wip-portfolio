@@ -8,3 +8,10 @@
   z-index: 1000;
   background: white;
 }
+.c_loadingTitle {
+  text-transform: uppercase;
+  color: rgba(208, 208, 208, 0.4);
+  font-family: 'sftext-semibold', sans-serif;
+  font-weight: 900;
+  font-size: 2em;
+}
